@@ -1,0 +1,19 @@
+{
+	"ammo_type": "AMMO_Projectile",
+	"flight_layer": "Air",
+	"recon": { "observable": { "ignore_radar": true } },
+	"splash_damages_allies": false,
+	"turn_rate": 0,
+	"burn_damage": 0,
+	"burn_radius": 0,
+	"burn_duration": 0,
+	"flight_type": "Direct",
+	"physics": { "radius": 1, "gravity_scalar": 1, "ignore_gravity": true, "add_to_spatial_db": false },
+	"damage": 0,
+	"splash_damage": 0,
+	"splash_radius": 0,
+	"lifetime": 0.1,
+	"initial_velocity": 110,
+	"max_velocity": 110,
+	"spawn_layers": "WL_LandHorizontal"
+}

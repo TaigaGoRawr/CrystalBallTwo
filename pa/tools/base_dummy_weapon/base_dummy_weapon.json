@@ -1,0 +1,12 @@
+{
+	"ammo_id": "/pa/ammo/base_dummy/base_dummy_ammo.json",
+	"auto_attack": false,
+	"base_spec": "/pa/tools/base_shell_turret/base_shell_turret.json",
+	"firing_arc_pitch": 15,
+	"firing_arc_yaw": 5,
+	"max_range": 110,
+	"pitch_range": 90,
+	"target_layers": ["WL_LandHorizontal", "WL_WaterSurface"],
+	"yaw_range": 360,
+	"yaw_rate": 360
+}

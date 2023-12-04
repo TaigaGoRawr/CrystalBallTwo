@@ -1,0 +1,14 @@
+{
+	"identifier": "com.pa.crystal-ball-two",
+	"context": "server",
+	"version": "0.1.0",
+	"author": "Community Consultants",
+	"description": "Update testing.",
+	"category": ["titans", "units", "balance"],
+	"forum": "",
+	"signature": "not yet implemented",
+	"titansOnly": true,
+	"display_name": "Crystal Ball Two",
+	"build": "116982",
+	"date": "2023-12-01"
+}
