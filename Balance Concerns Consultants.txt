@@ -1,0 +1,78 @@
+﻿Balance Concerns
+By: Taiga, Luther, Billthebluebot, Anonemous2
+Skitter Attack Behavior [1]
+Units without an anti-land weapon, when ordered to attack ground units and structures will attempt to get as close as possible to the enemies. This usually leads to their destruction and is counterintuitive when applied to certain support units
+* Add dummy weapon with 110 range to the Skitter
+* Add dummy weapon with 110 range to the Spinner
+* Add dummy weapon with 110 range to the Stinger
+* Add dummy weapon with 110 range to the Storm
+* Add dummy weapon with 110 range to the Stitch
+Manhattan Nerf [5]
+Manhattans are an underutilized unit in 1v1s, however they are exceptionally problematic large format team games. With short distances between bases, players are given a very short amount of time to react with active counters. Unlike all other types of weapons with game-ending potential, all of the counters are active rather than passive. These changes make utilizing the Manhattan require more thought and apply some risk to them being sniped in their base.
+* Cost increased to 10,000 (previously was 8,000)
+* Health reduced to 5,000 (previously was 15,000)
+Angel Usability [6]
+Angels are used relatively late game in large formats for snipes, however mathematically it's very difficult for angels to get their value back from their interception. Their reclaim ability is good but they remain niche. These changes make them easier to use with other air units and less risky to deploy.
+* Speed Increased to 50 (previously was 40)
+* Price reduced to 4,000 (previously was 5,000)
+Leveler Dominance [7]
+Levelers have been strong for quite a few years and despite being nerfed several times during the last few years, they remain the primary unit deployed in the mid-late game. While them being used as a generalist is not inherently problematic, their splash reduces the efficacy of their direct counters. Removing the splash will weaken the units against bot swarms and force players to diversify their compositions. The splash is also non-obvious to most players.
+* Splash removed
+SXX and Orbital Interaction [10]
+Currently Orbital balance is ostensibly an incomplete triangle. With Avengers countering Artemis, Artemis countering Omegas, and Omegas supposed to counter avengers. Completing the Triangle will make orbital more intuitive to play as well as reducing the oppressiveness of the Omega anti ground weapons against unprepared players. SXX in this current patch are utterly outclassed by the Omega and were weak in the past. To make the investment more worth the cost SXX are getting buffs in parallel. It is important to further improve the layer in the future.
+* Omega secondaries are no longer able to target air and ground targets
+* Omega secondaries add splash with 1 splash radius, 0.5 full damage radius
+* SXX speed increased to 35 (previously was 25)
+Storage Tankiness [11]
+Storages have been used by many players as ghetto walls in many games due to their large size and extreme health relative to other base structures. This is likely unintentional. Walls should at the same time be made easier to use.
+* Metal storage health reduced to 4,500 (previously 7,500)
+* Energy storage health reduced to 4,500 (previously 7,500)
+* Add Wall spaced-out alt build
+Hermes Energy Requirement [12]
+Hermes only provides direct sight and is unintuitive to require energy for their use especially with their cost.
+* Energy requirement removed
+Boombot Attack Function [14]
+Boombots will not attack units unless given explicit attack commands which allows for more specific control, but often means that booms fail to attack enemy units.
+* Set no_busy_auto_attack to false to allow them to explode without an attack command
+Unit Cannon Usability [15]
+Unit cannons are used fairly often in large format games but their usability is constrained by being passively countered by units that already provide utility in other aspects such as shooting ground units at long range. This change aims to improve counters by forcing players to make the active decision to counter unit cannons.
+* Anti drop pod weapon removed from Catapult
+* Anti drop pod weapon removed from the Bluehawk
+* Anti drop pod weapon removed from the Stingray
+Vanguard and Stingray Radar [17]
+Active radar in all its forms cost some energy to operate and bringing the vanguards and stingrays up to standard will make behaviors more intuitive for newer players and allows for more energy drain to be included in mechanics in the future.
+* Add 150 energy cost to Vanguard
+* Add 150 energy cost to Stingray
+Grenadier Usability [18]
+Grenadiers currently are a specialist unit designed to remove point defense, and while this is a good role for the unit to have, it takes a long time for the unit to do its job in many circumstances. This aims to make them slightly better at its current job.
+* Damage increased to 60 (previously was 40 damage)
+Kestrel Usability [19]
+Kestrels are underwhelming in most gamemodes at most skill levels. They are not effective against armies or static AA, which leaves raiding as their sole niche. T2 air raider is not usually a unit-carrying role in game-modes with a large number of players because the amount of AA compared to the planet radius increases significantly. 
+It is possible that this will lead to T2 air dominance in 1v1s and 2v2s despite AA being more powerful than in classic, revisions will be required in that case.
+* Increase damage to 25 damage every 0.25 seconds (previously was 20 damage)
+* Increase health to 300 (previously was 250)
+Barnacle Usability [23]
+Barnacles are not weak per-say, but their use in countering themselves is not a great role for the unit to have. Adding automatic reclaim allows these units to passively reclaim the new naval wreckage while the speed increase makes the unit better at countering themselves considering the lack of naval mine vision.
+* Speed increased to 14 (previously was 12)
+* Added automatic reclaim
+Stringer Rework [24]
+Stingers are able to dominate the Bumblebee matchup for a long stretch of the game by using line command and a high HP pool to avoid dying to initial runs. These changes aim to maintain a lot of the Stinger’s power against Icarus while allowing Bumblebees to kill less well microed Stingers without completely removing the opportunity for dodging, particularly in smaller/earlier fights.  
+* HP decreased to 55 (previously was 130)
+* Damage decreased to 10 (previously from 15)
+* RoF increased to 1.5 times per second (previously was 1)
+Hornet Change [?]
+Hornets are on the weak side, however stat changes are somewhat undesirable given the last time they were buffed they destabilized large format games because of their sniping capability. This change aims to improve their usability without directly buffing their stats by improving their micro ability.
+* Hornets allowed to fire backwards
+Mend Weapon Activation [?]
+Mends currently have a weapon on the model that is not active. This will make the unit act better in accordance with WYSIWYG and improves its unit performance as a combat fabricator giving it better self defense capabilities
+
+
+* Add Weapon
+   * Range 100
+   * 75 Damage every 2 seconds
+Ragnarok and Halleys Naval Buildable [?]
+Ragnaroks and Halleys have no reason to not be naval buildable and present problems in games which feature both naval and multiplanet. This change brings consistent behavior to these structures
+
+
+* Ragnarok now naval buildable
+* Halley now naval buildable

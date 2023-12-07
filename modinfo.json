@@ -1,7 +1,7 @@
 {
 	"identifier": "com.pa.crystal-ball-two",
 	"context": "server",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"author": "Taiga, billthebluebot, Anonemous2, Luther",
 	"description": "Update testing.",
 	"category": ["titans", "units", "balance"],
@@ -11,5 +11,5 @@
 	"display_name": "Crystal Ball Two",
 	"icon": "https://raw.githubusercontent.com/TaigaGoRawr/CrystalBallTwo/main/orb.jpg",
 	"build": "116982",
-	"date": "2023-12-05"
+	"date": "2023-12-07"
 }
