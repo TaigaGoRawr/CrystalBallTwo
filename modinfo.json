@@ -9,6 +9,7 @@
 	"signature": "not yet implemented",
 	"titansOnly": true,
 	"display_name": "Crystal Ball Two",
+	"priority": 2,
 	"icon": "https://raw.githubusercontent.com/TaigaGoRawr/CrystalBallTwo/main/orb.jpg",
 	"build": "116982",
 	"date": "2023-12-07"
